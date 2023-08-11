@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login & Registration Form</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" id="check">
+        <div class="login form">
+            <header>Login to your account</header>
+            <form action="#">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="manoj@richpanel.com" name="email" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="**********" name="psw" required>
+                <!--<input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>-->
+                <label>
+                    <input type="checkbox"  name="remember"> 
+                Remember me
+                </label>
+                <input type="button" class="button" value="Login">
+            </form>
+            <div class="signup">
+                <span class="signup">New to MyApp?
+                    <label for="check">Sign Up</label>
+                </span>
+            </div>
+        </div>
+        <div class="registration form">
+            <header>Create Account</header>
+            <form action="#">
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="manoj Kumar" name="name" required>
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="manoj@richpanel.com" name="email" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="**********" name="psw" required>
+                <label><input type="checkbox"  name="remember">  Remember me</label>
+                <input type="button" class="button" value="Signup">
+            </form>
+            <div class="signup">
+                <span class="signup">Already have an account?
+                    <label for="check">Login</label>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
